@@ -1,9 +1,29 @@
 .calculator{
    margin:0 auto;
+   margin-top:40px;
    padding:0;
    width:400px;
+   
+}
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .screen{
+    border-top-left-radius:5px;
+   border-top-right-radius:5px ;
     width:100%;
     padding:20px 0;
     font-family: 'Courier New', Courier, monospace;
@@ -54,4 +74,22 @@
 }
 .triple{
     width:74.9%;
+}
+@media(max-width:375px){
+    .calculator{
+        width:300px;
+    }
+    .calc-button{
+        font-size:30px;
+        padding:15px;
+    }
+}
+@media(max-width:320px){
+    .calculator{
+        width:250px;
+    }
+    .calc-button{
+        font-size:15px;
+        padding:15px;
+    }
 }
