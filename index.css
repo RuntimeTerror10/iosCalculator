@@ -86,7 +86,7 @@ body{
 }
 @media(max-width:320px){
     .calculator{
-        width:250px;
+        width:280px;
     }
     .calc-button{
         font-size:15px;
