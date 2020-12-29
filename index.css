@@ -80,8 +80,14 @@ body{
         width:300px;
     }
     .calc-button{
-        font-size:30px;
-        padding:30px;
+        height:100%;
+        width:24.9%;
+        margin:0.1%;
+        padding:15px;
+        color:black;
+        font-size:40px;
+        border-radius: 0;
+        cursor: pointer;
     }
 }
 @media(max-width:320px){
@@ -89,7 +95,13 @@ body{
         width:250px;
     }
     .calc-button{
-        font-size:15px;
-        padding:30px;
+        width:24.9%;
+        margin:0.1%;
+        padding:15px;
+        color:black;
+        font-size:40px;
+        border-radius: 0;
+        cursor: pointer;
+        height:100%
     }
 }
